@@ -24,12 +24,12 @@ public class Weapon {
 
     double successRate = 1.0 - (enhancementLevel * 0.05);
     if (Math.random() < successRate) {
-      this.enhancementLevel += 1;
-      this.attackPower += 10;
+      setEnhancementLevel(getEnhancementLevel() + 1);
+      setAttackPower(getAttackPower() + 10);
       Print.printSuccess(
           "축하합니다! 강화에 성공했습니다!!\n" + "강화단계 : " + enhancementLevel + "\n공격력 " + attackPower);
     } else {
-      this.isBroken = true;
+      setBroken(true);
       Print.printFailure("강화에 실패하여 무기가 파괴되었습니다.");
       Print.printGameOver();
       throw new Exception("게임을 종료했습니다.");
