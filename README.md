@@ -29,3 +29,4 @@ git clone https://github.com/Woori-FISA-Mini-Team-4/assignment01.git
 <img width="348" alt="스크린샷 2023-04-27 오후 10 28 33" src="https://user-images.githubusercontent.com/109801772/234881439-f9980c01-7f68-4d97-a726-a3d9263fed47.png">
 <img width="280" alt="스크린샷 2023-04-27 오후 10 27 52" src="https://user-images.githubusercontent.com/109801772/234881443-9ec66863-4aa9-4e80-99ed-d8c021ba40b6.png">
 <img width="352" alt="스크린샷 2023-04-27 오후 10 26 45" src="https://user-images.githubusercontent.com/109801772/234881447-6e7a9aca-df01-4c7c-9d4e-0d3458c2d7c6.png">
+<img width="408" alt="스크린샷 2023-04-27 오후 10 47 29" src="https://user-images.githubusercontent.com/109801772/234882201-653cf8ab-c37e-4eaf-8c83-74c5ff6a13c3.png">
