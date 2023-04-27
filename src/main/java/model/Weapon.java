@@ -17,9 +17,12 @@ public class Weapon {
     this.attackPower = attackPower;
   }
 
-  public void enhance() throws Exception {
+  //TODO:"적절한 예외처리 방법을 선택해 메소드를 호출한 곳에 예외를 전달하세요."
+  public void enhance(){
     if (enhancementLevel >= 15) {
-      throw new Exception("축하합니다. 최고 강화단계에 도달했습니다. 게임에서 승리했습니다.");
+
+      //TODO:"최고 강화단계에 도달했습니다. 게임에서 승리했습니다."는 예외을 전달하세요.
+
     }
 
     double successRate = 1.0 - (enhancementLevel * 0.05);
@@ -32,7 +35,8 @@ public class Weapon {
       this.isBroken = true;
       Print.printFailure("강화에 실패하여 무기가 파괴되었습니다.");
       Print.printGameOver();
-      throw new Exception("게임을 종료했습니다.");
+
+      //TODO:"게임을 종료합니다" 는 예외를 전달하세요.
     }
   }
 }
