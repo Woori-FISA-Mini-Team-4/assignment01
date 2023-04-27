@@ -23,3 +23,9 @@ git clone https://github.com/Woori-FISA-Mini-Team-4/assignment01.git
 5. Weapon 클래스에서 구현되어 있는 enhance 메소드에서 주석을 참고한 후, 적절한 예외처리 방법을 사용하여, 명시적으로 예외을 발생시키고, 예외발생을 전달하는 코드를 작성하세요.
 6. GameUI 클래스에서 선택한 무기에 따라서 Weapon 객체를 생성하고, weapon 변수에 할당하는 코드를 작성하세요. (1, 2, 3, 4) 이 네가지가 아닌 입력값이 받아져 온다면, 시스템을
    종료시키세요.
+
+# 출력예시
+
+<img width="348" alt="스크린샷 2023-04-27 오후 10 28 33" src="https://user-images.githubusercontent.com/109801772/234881439-f9980c01-7f68-4d97-a726-a3d9263fed47.png">
+<img width="280" alt="스크린샷 2023-04-27 오후 10 27 52" src="https://user-images.githubusercontent.com/109801772/234881443-9ec66863-4aa9-4e80-99ed-d8c021ba40b6.png">
+<img width="352" alt="스크린샷 2023-04-27 오후 10 26 45" src="https://user-images.githubusercontent.com/109801772/234881447-6e7a9aca-df01-4c7c-9d4e-0d3458c2d7c6.png">
